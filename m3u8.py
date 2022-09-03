@@ -9,7 +9,7 @@ def create_m3u8(filenames):
     for filename in filenames:
         m3u8 += '\n'.join([
         '\n#EXT-X-DISCONTINUITY',
-        '#EXTINF:2.0',
+        '#EXTINF:1.0',
         'https://video.seen.io/moderaterna-karnfragor/result/names/' + filename
         ])
 

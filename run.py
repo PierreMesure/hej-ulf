@@ -14,4 +14,5 @@ names = SCB.fetch_names(20000)
 Moderaterna().fetch_videos(names)
 
 filenames = os.listdir('videos')
+filenames.remove('.DS_Store')
 create_m3u8(filenames)
